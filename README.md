@@ -69,7 +69,7 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
   <pre style="font-size:10px; background-color: #d9ffcc;">
     - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
   </pre> 
-<strong>10</strong> Ripetetere il punto <strong>4</strong>
+<strong>10</strong> Ripetetere dal punto <strong>4</strong> al punto <strong>6</strong>
 #
 #
 <strong>Attenzione, se la VMC non viene vista, assicurarsi che la stessa venga visualizzata all'interni dell'APP Air Guard; diversamente impiegando la stessa inserirla nell'infrastuttura di rete.</strong>
