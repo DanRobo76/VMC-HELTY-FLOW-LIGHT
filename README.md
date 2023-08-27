@@ -41,10 +41,13 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
      - Scheda Interfaccia vmc_helty_flow_light_cucina_[data].txt
   </pre>
  , presenti nella scheda "CODE" -> Download ZIP:<BR>
- ![image](https://user-images.githubusercontent.com/102819027/235298629-1967e438-4096-4889-ac51-037483885dbe.png)<BR>
+
+<img width="309" alt="Code" src="https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/65eb9f70-14df-4daf-a338-a1a4b337ee83"><BR>
+
+ 
 <strong>4</strong> in Home Assistant andare in Panoramica -> cliccare in alto a destra sui ... puntini -> Modifica plancia -> AGGIUNGI SCHEDA -> Manuale -> Selezionare tutto il Codice , cancellare tutto il codice e incollare il contenuto del file "Scheda Interfaccia vmc_helty_flow_light_cucina_[data].txt"<br>
 <strong>5</strong> Riavviare Home Assistant [Non usare il Riavvio Rapido] <br>
-<strong>6</strong> trovare e sostituire all'interno del file "vmc_helty_flow_light_cucina_[data].yaml" l'indirizzo IP, da 192.168.1.160 con l'indirizzo Ip, vedi (Punto <strong>1</strong>)  [Aprile in Home Assistant il Pannello "File editor", cliccare sull' icona "Cartellina", andare in "packages", andare in "vmc_helty_flow_light" e selezionare il file "vmc_helty_flow_light_cucina_[data].yaml", cliccare sull'icona "Lente" ovvero Cerca", inserire l'Indirizzo IP 192.168.1.160 nel campo "Search for" e il nuovo Indirizzo IP, (Punto <strong>1</strong>) nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; riavviare Home Assistant. [Non usare il Riavvio Rapido]<br>
+<strong>6</strong> trovare e sostituire all'interno del file "vmc_helty_flow_light_cucina_[data].yaml" l'indirizzo IP, da 192.168.1.160 con l'indirizzo Ip, vedi (Punto <strong>1</strong>)  [Aprire in Home Assistant il Pannello "File editor", cliccare sull' icona "Cartellina", andare in "packages", andare in "vmc_helty_flow_light" e selezionare il file "vmc_helty_flow_light_cucina_[data].yaml", cliccare sull'icona "Lente" ovvero Cerca", inserire l'Indirizzo IP 192.168.1.160 nel campo "Search for" e il nuovo Indirizzo IP, (Punto <strong>1</strong>) nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; riavviare Home Assistant. [Non usare il Riavvio Rapido]<br>
   
 ###   Se si hanno a disposizione più VMC, ripetere i punti sottostanti per ogni VMC:                      
 
