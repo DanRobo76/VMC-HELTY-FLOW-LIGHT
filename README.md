@@ -33,9 +33,10 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
   , diversamente inserirlo, salvare il File "configuration.yaml" e riavviare Home Assistant [Non usare il Riavvio Rapido]<BR>
 
 <strong>3</strong> Verificare la presenza della cartella "packages" all'interno della cartella "config" del Server Home Assistant; se non è presente, creare l'intero  percorso ovvero: \\192.168.1.xxx\config\packages\vmc_helty_flow_light<BR>
- <strong>3.1</strong> all'interno del percorso \config\packages\vmc_helty_flow_light copiare il seguente File:<BR> 
+ <strong>3.1</strong> all'interno del percorso \config\packages\vmc_helty_flow_light copiare i seguenti Files:<BR> 
   <pre style="font-size:10px; background-color: #d9ffcc;">
      - vmc_helty_flow_light_cucina_[data].yaml
+     - Scheda Interfaccia vmc_helty_flow_light_cucina_[data]
   </pre>
  , presenti nella scheda "CODE" -> Download ZIP:<BR>
 
@@ -48,14 +49,14 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
   
 ###   Se si hanno a disposizione più VMC, ripetere i punti sottostanti per ogni VMC:                      
 
-<strong>7</strong> Copiare e Incollare i seguenti File nella cartella \config\packages\vmc_helty_flow_light:
+<strong>7</strong> Copiare e Incollare i seguenti Files nella cartella \config\packages\vmc_helty_flow_light:
  <pre style="font-size:10px; background-color: #d9ffcc;">
     - vmc_helty_flow_light_cucina_[data].yaml
-    - Scheda Interfaccia vmc_helty_flow_light_cucina_[data].txt
-  </pre> 
-<strong>8</strong> Rinominare i seguenti File:
+    - Scheda Interfaccia vmc_helty_flow_light_cucina_[data]
+ </pre> 
+<strong>8</strong> Rinominare i seguenti Files:
   <pre style="font-size:10px; background-color: #d9ffcc;">
-    - da vmc_helty_flow_light_cucina_[data].yaml- Copia.yaml a vmc_helty_flow_light_[nome]_[data].yaml (Es. vmc_helty_flow_light_sala_[data].yaml)
+    - da vmc_helty_flow_light_cucina_[data] - Copia.yaml a vmc_helty_flow_light_[nome]_[data].yaml (Es. vmc_helty_flow_light_sala_[data].yaml)
     - da Scheda Interfaccia vmc_helty_flow_light_cucina_[data] - Copia a Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt (Es. Scheda Interfaccia vmc_helty_flow_light_sala_[data].txt)
   </pre> 
 <strong>9</strong> Aprire uno alla volta, con un Editor di File (Es. Word Office) i seguenti Files:
@@ -64,9 +65,9 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
     - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
   </pre> 
   usare la funzione "trova e sostituisci"-> Trova: cucina e sostituisci con: [nome] <br>
-  Salvare il File "vmc_helty_flow_light_[nome]_[data].yaml" e ripetere per i files rimanenti:
+  Salvare il File "vmc_helty_flow_light_[nome]_[data].yaml" e ripetere per il file rimanente:
   <pre style="font-size:10px; background-color: #d9ffcc;">
-    - - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
+    - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
   </pre> 
 <strong>10</strong> Ripetetere il punto <strong>4</strong>
 
