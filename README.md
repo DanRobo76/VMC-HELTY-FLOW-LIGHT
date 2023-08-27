@@ -33,10 +33,9 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
   , diversamente inserirlo, salvare il File "configuration.yaml" e riavviare Home Assistant [Non usare il Riavvio Rapido]<BR>
 
 <strong>3</strong> Verificare la presenza della cartella "packages" all'interno della cartella "config" del Server Home Assistant; se non è presente, creare l'intero  percorso ovvero: \\192.168.1.xxx\config\packages\vmc_helty_flow_light<BR>
- <strong>3.1</strong> all'interno del percorso \config\packages\vmc_helty_flow_light copiare i seguenti Files:<BR> 
+ <strong>3.1</strong> all'interno del percorso \config\packages\vmc_helty_flow_light copiare il seguente File:<BR> 
   <pre style="font-size:10px; background-color: #d9ffcc;">
      - vmc_helty_flow_light_cucina_[data].yaml
-     - Scheda Interfaccia vmc_helty_flow_light_cucina_[data].txt
   </pre>
  , presenti nella scheda "CODE" -> Download ZIP:<BR>
 
