@@ -37,8 +37,8 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
 <strong>3</strong> Verificare la presenza della cartella "packages" all'interno della cartella "config" del Server Home Assistant; se non è presente, creare l'intero  percorso ovvero: \\192.168.1.xxx\config\packages\vmc_helty_flow_light<BR>
  <strong>3.1</strong> all'interno del percorso \config\packages\vmc_helty_flow_light copiare i seguenti Files:<BR> 
   <pre style="font-size:10px; background-color: #d9ffcc;">
-     - Scheda Interfaccia vmc_helty_flow_light_cucina_[data].yaml
-     - Scheda Interfaccia VMC Cucina[data].txt
+     - vmc_helty_flow_light_cucina_[data].yaml
+     - Scheda Interfaccia vmc_helty_flow_light_cucina_[data].txt
   </pre>
  , presenti nella scheda "CODE" -> Download ZIP:<BR>
  ![image](https://user-images.githubusercontent.com/102819027/235298629-1967e438-4096-4889-ac51-037483885dbe.png)<BR>
