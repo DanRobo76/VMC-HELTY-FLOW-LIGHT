@@ -20,10 +20,8 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
 #
 <strong>Punti di Forza:</strong>
   - Invia Comandi da remoto alla VMC, leggendone i valori Contenuti;
-  - Possibili Servizi da impiegare nell'Automazione:                                                                                    
-    <img width="846" alt="Shell" src="https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/082c08a4-08d3-49c1-9fdd-7e7ced18ab57">
-
-
+  - Possibili Servizi da impiegare in un'Automazione:                                                                                    
+    <img src="https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/60b44f68-cc76-4bb2-9c08-7bd735a707f4" alt="immagine" style="width:200%;">
   
  #
 ![image](https://user-images.githubusercontent.com/102819027/235299358-88373b06-b62e-4867-88ab-287cad60bb6d.png)<br>
