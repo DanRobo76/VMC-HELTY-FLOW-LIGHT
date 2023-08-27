@@ -9,8 +9,9 @@ In nessun caso l'Ing. Danilo Robotti sarà responsabile di danneggiamenti dirett
 Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione, dell’uso e della gestione del SoftWare al fine del raggiungimento del risultato prefissatosi. 
 
 <strong><a href="https://github.com/DanRobo76/VMC-HELTY-FLOW/blob/main/SECURITY.md" text="Limiti del SoftWare (Security Policy)">Limiti del SoftWare (Security Policy)</a></strong> 
+
 #
-![VMC Schermata Principale](https://github.com/DanRobo76/VMC-HELTY-FLOW/assets/102819027/23a4d50f-f4ab-40af-81d7-3370449ac190)
+![VMC Schermata Principale](https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/36a6b828-7625-4464-a53a-1d888f1825d8)
 
 <strong>Pre-Requisiti:</strong>
  - Installare <strong><a href="https://www.home-assistant.io/installation/">Home Assistant</a></strong>;
