@@ -55,15 +55,9 @@ cards:
             image: >-
               https://user-images.githubusercontent.com/102819027/253794765-72d95647-d900-4fbc-acfa-6864b7f76321.png
             tap_action:
-              action: call-service
-              service: input_boolean.toggle
-              service_data:
-                entity_id: input_boolean.vmc_cucina_opzioni_accendi_spegni_avvisi
+              action: none
             hold_action:
-              action: call-service
-              service: input_boolean.toggle
-              service_data:
-                entity_id: input_boolean.vmc_cucina_opzioni_accendi_spegni_avvisi
+              action: none
         - square: false
           type: grid
           cards:
