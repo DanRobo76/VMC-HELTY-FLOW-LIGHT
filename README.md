@@ -13,11 +13,10 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
 #
 ![Immagine](https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/f9c1db6b-9e9a-4015-965e-fb62277403f7)
 
-
-<strong>Pre-Requisiti:</strong>
- - Installare <strong><a href="https://www.home-assistant.io/installation/">Home Assistant</a></strong>;
- - Installare l'Add On [Facoltativo] <strong>File Edit</strong>, di Home Assistant; <br> 
-   [Impostazioni->Componenti aggiuntivi->Raccolta di Componenti Aggiuntivi->File editor]
+<strong>Pre-Requisiti:</strong><br> 
+<sub>- Installare <strong><a href="https://www.home-assistant.io/installation/">Home Assistant</a></strong>;</sub><br>
+<sub>- Installare l'Add On [Facoltativo, ma Consigliato] <strong>File Edit</strong>, di Home Assistant;</sub><sub>   [Impostazioni->Componenti aggiuntivi->Raccolta di Componenti Aggiuntivi->File editor].</sub><br>
+<sub>- Assicurarsi che la VMC venga visualizzata all'interni dell'APP Air Guard; diversamente impiegando la stessa inserirla nell'infrastuttura di rete.</sub><br>
 #
 <strong>Punti di Forza:</strong>
   - Invia Comandi da remoto alla VMC, leggendone i valori Contenuti;
@@ -72,10 +71,6 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
 <strong>9</strong> Riavviare Home Assistant [Non usare il Riavvio Rapido] <br>
 <strong>10</strong> in Home Assistant andare in Panoramica -> cliccare in alto a destra sui ... puntini -> Modifica plancia -> AGGIUNGI SCHEDA -> Manuale -> Selezionare tutto il Codice , cancellare tutto il codice e incollare il contenuto del file "Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt"<br>
 #
-
-<strong>Attenzione, se la VMC non viene vista, assicurarsi che la stessa venga visualizzata all'interni dell'APP Air Guard; diversamente impiegando la stessa inserirla nell'infrastuttura di rete.</strong>
-    
-<a href="https://www.paypal.com/donate/?business=YU9379GL8VDW4&amount=1.2&no_recurring=1&item_name=Se+il+progetto+ti+%C3%A8+piaciuto%2C++offrimi+un+GinSeng%21+%0A%3B%29&currency_code=EUR"><img src="https://user-images.githubusercontent.com/102819027/233835920-a428b274-1fe8-4001-8be2-3429628f81ca.png" alt="immagine" style="width:20%;"> </a> 
 
 #### Se il progetto ti è piaciuto <a href="https://www.paypal.com/donate/?business=YU9379GL8VDW4&amount=1.2&no_recurring=1&item_name=Se+il+progetto+ti+%C3%A8+piaciuto%2C++offrimi+un+GinSeng%21+%0A%3B%29&currency_code=EUR">Clicca Qui</a> per offrirmi un GinSeng! <a href="https://www.paypal.com/donate/?business=YU9379GL8VDW4&amount=1.2&no_recurring=1&item_name=Se+il+progetto+ti+%C3%A8+piaciuto%2C++offrimi+un+GinSeng%21+%0A%3B%29&currency_code=EUR"><img src="https://user-images.githubusercontent.com/102819027/233830035-709efa6b-94d7-4ea6-865b-76ab5c1eee6d.png" alt="immagine" style="width:3%;"></a>
 <br>
