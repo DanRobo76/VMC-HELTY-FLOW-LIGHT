@@ -69,13 +69,15 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
     - vmc_helty_flow_light_[nome]_[data].yaml
     - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
   </pre> 
-  usare la funzione "trova e sostituisci"-> Trova: master e sostituisci con: [nome] <br>
+  usare la funzione "trova e sostituisci": <br>
+     - [master] e sostituisci con: [nome] <br>
+     - 192.168.1.160 con l'indirizzo Ip [nuovo IP]<br>
   Salvare il File "vmc_helty_flow_light_[nome]_[data].yaml" e ripetere per il file rimanente:
   <pre style="font-size:10px; background-color: #d9ffcc;">
     - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
-  </pre> 
-  Sovrascrivere i files all'interno del percorso \config\packages\vmc_helty_flow_light <br>
-<strong>10</strong> Ripetetere dal punto <strong>4</strong> al punto <strong>6</strong>
+  </pre>
+  Sovrascrivere i files all'interno del percorso \config\packages\vmc_helty_flow_light <br<br>
+<strong>10</strong> Riavviare Home Assistant [Non usare il Riavvio Rapido] <br>
 #
 
 <strong>Attenzione, se la VMC non viene vista, assicurarsi che la stessa venga visualizzata all'interni dell'APP Air Guard; diversamente impiegando la stessa inserirla nell'infrastuttura di rete.</strong>
