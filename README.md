@@ -16,7 +16,7 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
 <strong>Pre-Requisiti:</strong><br> 
 <sub>- Installare <strong><a href="https://www.home-assistant.io/installation/">Home Assistant</a></strong>;</sub><br>
 <sub>- Installare l'Add On [Facoltativo, ma Consigliato] <strong>File Edit</strong>, di Home Assistant;</sub><sub>   [Impostazioni->Componenti aggiuntivi->Raccolta di Componenti Aggiuntivi->File editor].</sub><br>
-<sub>- Assicurarsi che la VMC venga visualizzata all'interni dell'APP <strong><a href="https://play.google.com/store/apps/details?id=com.helty.heltyair&hl=it&gl=US&pli=1">Air Guard</a></strong>; diversamente impiegando la stessa inserirla nell'infrastuttura di rete, prima di procedere.</sub><br>
+<sub>- Assicurarsi che la VMC venga visualizzata all'interni dell'APP <strong><a href="https://play.google.com/store/apps/details?id=com.helty.heltyair&hl=it&gl=US&pli=1">Air Guard</a></strong>; diversamente, impiegando la stessa, inserirla nell'infrastuttura di rete, prima di procedere.</sub><br>
 #
 <strong>Punti di Forza:</strong>
   - Invia Comandi da remoto alla VMC, leggendone i valori Contenuti;
