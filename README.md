@@ -49,40 +49,32 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
 
  
 <strong>4</strong> in Home Assistant andare in Panoramica -> cliccare in alto a destra sui ... puntini -> Modifica plancia -> AGGIUNGI SCHEDA -> Manuale -> Selezionare tutto il Codice , cancellare tutto il codice e incollare il contenuto del file "Scheda Interfaccia vmc_helty_flow_light_master_[data].txt"<br>
-<strong>5</strong> Riavviare Home Assistant [Non usare il Riavvio Rapido] <br>
-<strong>6</strong> trovare e sostituire all'interno del file "vmc_helty_flow_light_master_[data].yaml" l'indirizzo IP, da 192.168.1.160 con l'indirizzo Ip, vedi (Punto <strong>1</strong>)  [Aprire in Home Assistant il Pannello "File editor", cliccare sull' icona "Cartellina", andare in "packages", andare in "vmc_helty_flow_light" e selezionare il file "vmc_helty_flow_light_master_[data].yaml", cliccare sull'icona "Lente" ovvero Cerca", inserire l'Indirizzo IP 192.168.1.160 nel campo "Search for" e il nuovo Indirizzo IP, (Punto <strong>1</strong>) nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; riavviare Home Assistant. [Non usare il Riavvio Rapido]<br>
+<strong>5</strong> trovare e sostituire all'interno del file "vmc_helty_flow_light_master_[data].yaml" l'indirizzo IP, da 192.168.1.160 con l'indirizzo Ip, vedi (Punto <strong>1</strong>)  [Aprire in Home Assistant il Pannello "File editor", cliccare sull' icona "Cartellina", andare in "packages", andare in "vmc_helty_flow_light" e selezionare il file "vmc_helty_flow_light_master_[data].yaml", cliccare sull'icona "Lente" ovvero Cerca", inserire l'Indirizzo IP 192.168.1.160 nel campo "Search for" e il nuovo Indirizzo IP, (Punto <strong>1</strong>) nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; riavviare Home Assistant. [Non usare il Riavvio Rapido]<br>
   
 ###   Se si hanno a disposizione più VMC, ripetere i punti sottostanti per ogni VMC:                      
 
-<strong>7</strong> Copiare e Incollare i seguenti Files nella cartella \config\packages\vmc_helty_flow_light:
+<strong>6</strong> Copiare e Incollare i seguenti Files nella cartella \config\packages\vmc_helty_flow_light:
  <pre style="font-size:10px; background-color: #d9ffcc;">
     - vmc_helty_flow_light_master_[data].yaml
     - Scheda Interfaccia vmc_helty_flow_light_master_[data]
  </pre> 
-<strong>8</strong> Rinominare i seguenti Files:
+<strong>7</strong> Rinominare i seguenti Files:
   <pre style="font-size:10px; background-color: #d9ffcc;">
     - da vmc_helty_flow_light_master_[data] - Copia.yaml a vmc_helty_flow_light_[nome]_[data].yaml (Es. vmc_helty_flow_light_sala_[data].yaml)
     - da Scheda Interfaccia vmc_helty_flow_light_master_[data] - Copia a Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt (Es. Scheda Interfaccia vmc_helty_flow_light_sala_[data].txt)
   </pre> 
-<strong>9</strong> Aprire uno alla volta, con un Editor di File (Es. Word Office) i seguenti Files:
-  <pre style="font-size:10px; background-color: #d9ffcc;">
-    - vmc_helty_flow_light_[nome]_[data].yaml
-    - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
-  </pre> 
-  usare la funzione "trova e sostituisci": <br>
-     - [master] e sostituisci con: [nome] <br>
-     - 192.168.1.160 con l'indirizzo Ip [nuovo IP]<br>
-  Salvare il File "vmc_helty_flow_light_[nome]_[data].yaml" e ripetere per il file rimanente:
-  <pre style="font-size:10px; background-color: #d9ffcc;">
-    - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
-  </pre>
-  Sovrascrivere i files all'interno del percorso \config\packages\vmc_helty_flow_light <br<br>
-<strong>10</strong> Riavviare Home Assistant [Non usare il Riavvio Rapido] <br>
+<strong>8</strong> Aprire in Home Assistant il Pannello "File editor", cliccare sull' icona "Cartellina", andare in "packages", andare in "vmc_helty_flow_light" e selezionare il file "vmc_helty_flow_light_[nome]_[data].yaml":<BR>
+ - cliccare sull'icona "Lente" ovvero Cerca", inserire [master] nel campo "Search for" e inserire il nuovo [nome] nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; <BR>
+ - cliccare sull'icona "Lente" ovvero Cerca", trovare e inserire il [vecchio IP] nel campo "Search for" e inserire il nuovo [IP] nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; <BR>
+ - cliccare sull' icona "Cartellina", andare in "packages", andare in "vmc_helty_flow_light" e selezionare il file "Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt":<BR>
+ - cliccare sull'icona "Lente" ovvero Cerca", inserire [master] nel campo "Search for" e inserire il nuovo [nome] nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; <BR>
+ 
+<strong>9</strong> Riavviare Home Assistant [Non usare il Riavvio Rapido] <br>
+<strong>10</strong> in Home Assistant andare in Panoramica -> cliccare in alto a destra sui ... puntini -> Modifica plancia -> AGGIUNGI SCHEDA -> Manuale -> Selezionare tutto il Codice , cancellare tutto il codice e incollare il contenuto del file "Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt"<br>
 #
 
 <strong>Attenzione, se la VMC non viene vista, assicurarsi che la stessa venga visualizzata all'interni dell'APP Air Guard; diversamente impiegando la stessa inserirla nell'infrastuttura di rete.</strong>
     
-
 <a href="https://www.paypal.com/donate/?business=YU9379GL8VDW4&amount=1.2&no_recurring=1&item_name=Se+il+progetto+ti+%C3%A8+piaciuto%2C++offrimi+un+GinSeng%21+%0A%3B%29&currency_code=EUR"><img src="https://user-images.githubusercontent.com/102819027/233835920-a428b274-1fe8-4001-8be2-3429628f81ca.png" alt="immagine" style="width:20%;"> </a> 
 
 #### Se il progetto ti è piaciuto <a href="https://www.paypal.com/donate/?business=YU9379GL8VDW4&amount=1.2&no_recurring=1&item_name=Se+il+progetto+ti+%C3%A8+piaciuto%2C++offrimi+un+GinSeng%21+%0A%3B%29&currency_code=EUR">Clicca Qui</a> per offrirmi un GinSeng! <a href="https://www.paypal.com/donate/?business=YU9379GL8VDW4&amount=1.2&no_recurring=1&item_name=Se+il+progetto+ti+%C3%A8+piaciuto%2C++offrimi+un+GinSeng%21+%0A%3B%29&currency_code=EUR"><img src="https://user-images.githubusercontent.com/102819027/233830035-709efa6b-94d7-4ea6-865b-76ab5c1eee6d.png" alt="immagine" style="width:3%;"></a>
