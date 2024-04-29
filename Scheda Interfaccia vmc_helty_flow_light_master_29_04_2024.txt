@@ -1,0 +1,213 @@
+type: vertical-stack
+cards:
+  - type: conditional
+    conditions:
+      - entity: sensor.vmc_master_status_ip
+        state: OFF-Line
+    card:
+      type: entities
+      entities:
+        - entity: sensor.vmc_master_nome_status
+          secondary_info: last-updated
+        - entity: sensor.vmc_master_status_ip
+          secondary_info: last-updated
+          name: Status IP su Porta 5001
+          icon: mdi:ip
+      state_color: true
+      show_header_toggle: false
+      title: Ventilazione Meccanica Controllata
+      header:
+        type: picture
+        image: >-
+          https://user-images.githubusercontent.com/102819027/253794765-72d95647-d900-4fbc-acfa-6864b7f76321.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+  - type: conditional
+    conditions:
+      - entity: sensor.vmc_master_status_ip
+        state: ON-Line
+    card:
+      type: vertical-stack
+      cards:
+        - type: entities
+          entities:
+            - entity: sensor.vmc_master_nome_status
+              secondary_info: last-updated
+            - entity: sensor.vmc_master_status_ventola_lettura_codice_interpretato
+              secondary_info: last-updated
+            - entity: sensor.vmc_master_status_sensori_lettura_codice_interpretato
+              secondary_info: last-updated
+            - entity: >-
+                sensor.vmc_master_status_led_pannello_lettura_codice_interpretato
+              secondary_info: last-updated
+            - entity: sensor.vmc_master_temp_esterna_status
+              secondary_info: last-updated
+            - entity: sensor.vmc_master_temp_interna_status
+              secondary_info: last-updated
+            - entity: sensor.vmc_master_umidita_interna_status
+              secondary_info: last-updated
+            - entity: sensor.vmc_master_co2_status
+              secondary_info: last-updated
+            - entity: sensor.vmc_master_voc_status
+              secondary_info: last-updated
+          state_color: true
+          show_header_toggle: false
+          title: Ventilazione Meccanica Controllata
+          header:
+            type: picture
+            image: >-
+              https://user-images.githubusercontent.com/102819027/253794765-72d95647-d900-4fbc-acfa-6864b7f76321.png
+            tap_action:
+              action: none
+            hold_action:
+              action: none
+        - square: true
+          type: grid
+          cards:
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_sensori_off
+                target: {}
+              name: Sensori Off
+              show_state: true
+              icon: mdi:chip
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_sensori_on
+                target: {}
+              name: Sensori On
+              show_state: true
+              icon: mdi:chip
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_pannello_led_off
+                target: {}
+              name: Led Pannello Off
+              show_state: true
+              icon: mdi:led-off
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_pannello_led_on
+                target: {}
+              name: Led Pannello On
+              show_state: true
+              icon: mdi:led-on
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_velocita_0
+                target: {}
+              show_state: true
+              name: Velocità 0
+              icon: mdi:numeric-0-box
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_velocita_1
+                target: {}
+              name: Velocità 1
+              show_state: true
+              icon: mdi:numeric-1-box
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_velocita_2
+                target: {}
+              name: Velocità 2
+              show_state: true
+              icon: mdi:numeric-2-box
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_velocita_3
+                target: {}
+              name: Velocità 3
+              show_state: true
+              icon: mdi:numeric-3-box
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_velocita_4
+                target: {}
+              name: Velocità 4
+              show_state: true
+              icon: mdi:numeric-4-box
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_notturna
+                target: {}
+              name: Notturna
+              show_state: true
+              icon: mdi:weather-night
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_iperventilazione
+                target: {}
+              name: Iperventilazione
+              show_state: true
+              icon: mdi:wind-power
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: call-service
+                service: shell_command.vmc_master_freecooling
+                target: {}
+              name: Free Cooling
+              show_state: true
+              icon: mdi:sun-snowflake-variant
+              hold_action:
+                action: none
+          columns: 4
