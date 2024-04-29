@@ -2,7 +2,7 @@
 
 <!-- <img class="hidden-image" src="https://github.com/DanRobo76/VMC-HELTY-FLOW/assets/102819027/72d95647-d900-4fbc-acfa-6864b7f76321.png" alt="VMC"> -->
 
-## VMC HELTY FLOW PLUS LIGHT sviluppato per Home Assistant <a href="https://www.home-assistant.io/" target="_blank"><img src="https://user-images.githubusercontent.com/102819027/233830183-9c55677d-b6a1-4153-8d3c-219394ec8720.png" alt="immagine" style="width:10%;"></a> <a href="https://www.heltyair.com/prodotti/vmc-a-parete/flow-plus/" target="_blank"><img src="https://user-images.githubusercontent.com/102819027/233830311-1a5e8923-b991-46b1-84b0-f72198d5055d.png" alt="immagine" style="width:7%;"></a>
+## VMC HELTY FLOW PLUS/ELITE LIGHT sviluppato per Home Assistant <a href="https://www.home-assistant.io/" target="_blank"><img src="https://user-images.githubusercontent.com/102819027/233830183-9c55677d-b6a1-4153-8d3c-219394ec8720.png" alt="immagine" style="width:10%;"></a> <a href="https://www.heltyair.com/prodotti/vmc-a-parete/flow-plus/" target="_blank"><img src="https://user-images.githubusercontent.com/102819027/233830311-1a5e8923-b991-46b1-84b0-f72198d5055d.png" alt="immagine" style="width:7%;"></a>
 <pre style="font-size:10px; background-color: #d9ffcc;">
 E-mail: <a href="mailto:danilo.robotti@gmail.com">danilo.robotti@gmail.com</a>
 </pre>
@@ -11,7 +11,8 @@ In nessun caso l'Ing. Danilo Robotti sarà responsabile di danneggiamenti dirett
 Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione, dell’uso e della gestione del SoftWare al fine del raggiungimento del risultato prefissatosi. 
 
 #
-![VMC Schermata Principale](https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/36a6b828-7625-4464-a53a-1d888f1825d8)
+![Immagine](https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/f9c1db6b-9e9a-4015-965e-fb62277403f7)
+
 
 <strong>Pre-Requisiti:</strong>
  - Installare <strong><a href="https://www.home-assistant.io/installation/">Home Assistant</a></strong>;
@@ -39,36 +40,36 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
 <strong>3</strong> Verificare la presenza della cartella "packages" all'interno della cartella "config" del Server Home Assistant; se non è presente, creare l'intero  percorso ovvero: \\192.168.1.xxx\config\packages\vmc_helty_flow_light<BR>
  <strong>3.1</strong> all'interno del percorso \config\packages\vmc_helty_flow_light copiare i seguenti Files:<BR> 
   <pre style="font-size:10px; background-color: #d9ffcc;">
-     - vmc_helty_flow_light_cucina_[data].yaml
-     - Scheda Interfaccia vmc_helty_flow_light_cucina_[data]
+     - vmc_helty_flow_light_master_[data].yaml
+     - Scheda Interfaccia vmc_helty_flow_light_master_[data]
   </pre>
  , presenti nella scheda "CODE" -> Download ZIP:<BR>
 
 <img width="309" alt="Code" src="https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/65eb9f70-14df-4daf-a338-a1a4b337ee83"><BR>
 
  
-<strong>4</strong> in Home Assistant andare in Panoramica -> cliccare in alto a destra sui ... puntini -> Modifica plancia -> AGGIUNGI SCHEDA -> Manuale -> Selezionare tutto il Codice , cancellare tutto il codice e incollare il contenuto del file "Scheda Interfaccia vmc_helty_flow_light_cucina_[data].txt"<br>
+<strong>4</strong> in Home Assistant andare in Panoramica -> cliccare in alto a destra sui ... puntini -> Modifica plancia -> AGGIUNGI SCHEDA -> Manuale -> Selezionare tutto il Codice , cancellare tutto il codice e incollare il contenuto del file "Scheda Interfaccia vmc_helty_flow_light_master_[data].txt"<br>
 <strong>5</strong> Riavviare Home Assistant [Non usare il Riavvio Rapido] <br>
-<strong>6</strong> trovare e sostituire all'interno del file "vmc_helty_flow_light_cucina_[data].yaml" l'indirizzo IP, da 192.168.1.160 con l'indirizzo Ip, vedi (Punto <strong>1</strong>)  [Aprire in Home Assistant il Pannello "File editor", cliccare sull' icona "Cartellina", andare in "packages", andare in "vmc_helty_flow_light" e selezionare il file "vmc_helty_flow_light_cucina_[data].yaml", cliccare sull'icona "Lente" ovvero Cerca", inserire l'Indirizzo IP 192.168.1.160 nel campo "Search for" e il nuovo Indirizzo IP, (Punto <strong>1</strong>) nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; riavviare Home Assistant. [Non usare il Riavvio Rapido]<br>
+<strong>6</strong> trovare e sostituire all'interno del file "vmc_helty_flow_light_master_[data].yaml" l'indirizzo IP, da 192.168.1.160 con l'indirizzo Ip, vedi (Punto <strong>1</strong>)  [Aprire in Home Assistant il Pannello "File editor", cliccare sull' icona "Cartellina", andare in "packages", andare in "vmc_helty_flow_light" e selezionare il file "vmc_helty_flow_light_master_[data].yaml", cliccare sull'icona "Lente" ovvero Cerca", inserire l'Indirizzo IP 192.168.1.160 nel campo "Search for" e il nuovo Indirizzo IP, (Punto <strong>1</strong>) nel campo "Replace", cliccare su "All" e successivamente salvare il file cliccando sull'icona "Dischetto"; riavviare Home Assistant. [Non usare il Riavvio Rapido]<br>
   
 ###   Se si hanno a disposizione più VMC, ripetere i punti sottostanti per ogni VMC:                      
 
 <strong>7</strong> Copiare e Incollare i seguenti Files nella cartella \config\packages\vmc_helty_flow_light:
  <pre style="font-size:10px; background-color: #d9ffcc;">
-    - vmc_helty_flow_light_cucina_[data].yaml
-    - Scheda Interfaccia vmc_helty_flow_light_cucina_[data]
+    - vmc_helty_flow_light_master_[data].yaml
+    - Scheda Interfaccia vmc_helty_flow_light_master_[data]
  </pre> 
 <strong>8</strong> Rinominare i seguenti Files:
   <pre style="font-size:10px; background-color: #d9ffcc;">
-    - da vmc_helty_flow_light_cucina_[data] - Copia.yaml a vmc_helty_flow_light_[nome]_[data].yaml (Es. vmc_helty_flow_light_sala_[data].yaml)
-    - da Scheda Interfaccia vmc_helty_flow_light_cucina_[data] - Copia a Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt (Es. Scheda Interfaccia vmc_helty_flow_light_sala_[data].txt)
+    - da vmc_helty_flow_light_master_[data] - Copia.yaml a vmc_helty_flow_light_[nome]_[data].yaml (Es. vmc_helty_flow_light_sala_[data].yaml)
+    - da Scheda Interfaccia vmc_helty_flow_light_master_[data] - Copia a Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt (Es. Scheda Interfaccia vmc_helty_flow_light_sala_[data].txt)
   </pre> 
 <strong>9</strong> Aprire uno alla volta, con un Editor di File (Es. Word Office) i seguenti Files:
   <pre style="font-size:10px; background-color: #d9ffcc;">
     - vmc_helty_flow_light_[nome]_[data].yaml
     - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
   </pre> 
-  usare la funzione "trova e sostituisci"-> Trova: cucina e sostituisci con: [nome] <br>
+  usare la funzione "trova e sostituisci"-> Trova: master e sostituisci con: [nome] <br>
   Salvare il File "vmc_helty_flow_light_[nome]_[data].yaml" e ripetere per il file rimanente:
   <pre style="font-size:10px; background-color: #d9ffcc;">
     - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
