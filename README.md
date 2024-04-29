@@ -74,6 +74,7 @@ Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione,
   <pre style="font-size:10px; background-color: #d9ffcc;">
     - Scheda Interfaccia vmc_helty_flow_light_[nome]_[data].txt
   </pre> 
+  Sovrascrivere i files all'interno del percorso \config\packages\vmc_helty_flow_light <br>
 <strong>10</strong> Ripetetere dal punto <strong>4</strong> al punto <strong>6</strong>
 #
 
