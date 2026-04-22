@@ -1,6 +1,7 @@
-<strong><a href="https://github.com/DanRobo76/VMC-HELTY-FLOW/tree/main" >Versione Heavy</a></strong>
+Hai già provato <strong><a href="https://github.com/DanRobo76/Aspiratore">ASPIRATORE Master</a></strong>?
 
-<!-- <img class="hidden-image" src="https://github.com/DanRobo76/VMC-HELTY-FLOW/assets/102819027/72d95647-d900-4fbc-acfa-6864b7f76321.png" alt="VMC"> -->
+
+---
 
 ## VMC HELTY FLOW PLUS/ELITE LIGHT sviluppato per Home Assistant <a href="https://www.home-assistant.io/" target="_blank"><img src="https://user-images.githubusercontent.com/102819027/233830183-9c55677d-b6a1-4153-8d3c-219394ec8720.png" alt="immagine" style="width:10%;"></a> <a href="https://www.heltyair.com/prodotti/vmc-a-parete/flow-plus/" target="_blank"><img src="https://user-images.githubusercontent.com/102819027/233830311-1a5e8923-b991-46b1-84b0-f72198d5055d.png" alt="immagine" style="width:7%;"></a>
 <pre style="font-size:10px; background-color: #d9ffcc;">
@@ -10,8 +11,15 @@ E-mail: <a href="mailto:danilo.robotti@gmail.com">danilo.robotti@gmail.com</a>
 In nessun caso l'Ing. Danilo Robotti sarà responsabile di danneggiamenti diretti, indiretti, o conseguenti, correlati a difetti del presente SoftWare. 
 Il Cliente ha l’onere e la responsabilità della scelta, dell’installazione, dell’uso e della gestione del SoftWare al fine del raggiungimento del risultato prefissatosi. 
 
-#
+
 ![Immagine](https://github.com/DanRobo76/VMC-HELTY-FLOW-LIGHT/assets/102819027/f9c1db6b-9e9a-4015-965e-fb62277403f7)
+
+
+<strong><a href="https://github.com/DanRobo76/VMC-HELTY-FLOW/tree/main" >VMC Versione Heavy</a></strong>
+
+
+#
+<!-- <img class="hidden-image" src="https://github.com/DanRobo76/VMC-HELTY-FLOW/assets/102819027/72d95647-d900-4fbc-acfa-6864b7f76321.png" alt="VMC"> -->
 
 <strong>Pre-Requisiti:</strong><br> 
 <sub>- Installare <strong><a href="https://www.home-assistant.io/installation/">Home Assistant</a></strong>;</sub><br>
